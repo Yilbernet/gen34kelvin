@@ -1,0 +1,84 @@
+*{
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://freefrontend.com/assets/img/css-weather-icons/css-animated-weather-icons.gif);
+    background-position: center -80px ;
+    background-size: 500px 400px;
+    font-weight: bold;
+}
+
+.container-all{
+   display: block;
+   margin: 0 auto;
+   width: 250px;
+   height: 350px;
+   background-color: rgba(103, 149, 248, 0.664);
+   border-radius: 10px;
+}
+
+.container-all{
+    margin-top: 130px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.country-name{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.clouds{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -12px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul{
+    margin-top: 15px;
+    margin-left: 14px;
+    margin-bottom: 10px;
+}
+
+ul li{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.temp{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+button{
+    margin-left: 77px;
+    padding: 5px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(41, 128, 199, 0.801);
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition: .5s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
